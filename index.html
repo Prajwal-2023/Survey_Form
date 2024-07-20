@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SURVEY FORM PROJECT 1</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+
+  <body>
+    <!-- <img src="bgform.jpg" alt="bg-image"> -->
+    <div class="main-title-form">
+    <h1>freeCodeCamp Survey Form</h1>
+    <p><em>Thank you for taking the time to help us improve the platform</em></p>
+    </div>
+
+    <!-- ---- -->
+    <section class="wraper">
+      
+      <!-- NAME DIV -->
+      <div class="name-div">
+        <h1>Name</h1>
+        <input type="text" placeholder="Enter Your Name" required />
+      </div>
+
+      <!-- EMAIL DIV -->
+      <div class="email-div">
+        <h1>Email</h1>
+        <input type="email" placeholder="Enter Your Email" required />
+      </div>
+
+      <!-- AGE DIV -->
+      <div class="age-num-div">
+        <h1>Age <small>(optional)</small></h1>
+        <input
+          type="number"
+          placeholder="Enter Your Age"
+          required
+          min="0"
+          max="80"
+        />
+      </div>
+
+      <!-- RADIO DIV -->
+      <div class="radio-div">
+        
+        <h1>Would you recommend freeCodeCamp to a friend ?</h1>
+        <div id="radio-div">
+        <input type="radio" id="Definitely" name="radio-grp" />
+        <label for="Definitely">Definitely</label>
+        </div><!--  -->
+        <div id="radio-div">
+        <input type="radio" id="Maybe" name="radio-grp" />
+        <label for="Maybe">Maybe</label>
+        </div><!--  -->
+        <div  id="radio-div">
+        <input type="radio" id="Not Sure" name="radio-grp" />
+        <label for="Not Sure">Not sure</label>
+      </div>
+    </div>
+
+      <!-- OPTION DIV -->
+      <div class="option-div">
+        <h1>Which option best describes your current role ?</h1>
+        <select>
+          <option disabled selected>Select Current Role</option>
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full Time Learner</option>
+          <option>Prefer Not To Say</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <!--  -->
+      <!-- CHECKBOX DIV -->
+      <div class="checkbox-main-div">
+        <h1>
+          What would you like to see improved ?<small>(Check all that apply)</small>
+        </h1>
+
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>Front-End Peojects</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label> Back-End Projects</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>Data Visualization</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label> Challenges</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>Open Source Community</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>Gitter help rooms</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>Videos</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>City Meetups</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>Wiki</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>Forum</label>
+        </div>
+        <!-- ************************* -->
+        <div id="checkbox-div">
+          <input type="checkbox" />
+          <label>Additional Courses</label>
+        </div>
+        <!-- ************************* -->
+      </div>
+
+      <!-- COMMENT DIV -->
+      <div class="text-area-div">
+        <h1>Any Comments or Suggestions ?</h1>
+        <textarea placeholder="Comment"></textarea>
+      </div>
+
+      <!-- BUTTON DIV -->
+      <div class="btn-div">
+        <button type="submit">Submit</button>
+      </div>
+
+      <!-- ---------------- -->
+    </section>
+  </body>
+</html>
